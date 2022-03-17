@@ -13,9 +13,11 @@ const StarShips = (props) => {
 
   return (
      <>
-      <div>
+      <div className='ship-button'>
         {starShips.map(starShip => 
-          <h1>{starShip.name}</h1>
+          <Link to='/ship' state={{starShip}} key={starShip.model}>
+          <button id='name-button'>{starShip.name}</button>
+          </Link>
           )}
       </div>
      </>
