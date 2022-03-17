@@ -15,7 +15,7 @@ const ShipDetails = (props) => {
   
   return (
      <>
-      <div id='ship-detail'>
+      <div id='ship-detail-container'>
         <h3>Ship Details</h3>
         {shipDetails.name ?
           <>

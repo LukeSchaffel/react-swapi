@@ -7,7 +7,7 @@ import ShipDetails from './pages/ShipDetails';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className='App-header'>
         <h1>Starwars Starships</h1>
       </header>
       <Routes>
